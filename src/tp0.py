@@ -3,7 +3,7 @@ import math
 from sklearn.model_selection import train_test_split
 
 # import file
-df = pd.read_csv("marambio_2007.dat", sep="\s+")
+df = pd.read_csv("res/tp0/marambio_2007.dat", sep="\s+")
 
 # create new data frame
 stats = pd.DataFrame(index=['Mean', 'Max', 'Min', 'Median'], columns=df.columns)
