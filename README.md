@@ -14,3 +14,7 @@ Para instalar las dependencias:
 pip install -r requirements.txt
 ```
 
+La dependencia `jupyterlab` se encuentra en el archivo de dependencias. Para iniciar una sesión de Jupyter Lab, correr el comando:
+```bash
+jupyter lab
+```
