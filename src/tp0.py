@@ -1,6 +1,8 @@
 import pandas as pd
 import math
 from sklearn.model_selection import train_test_split
+import numpy as np
+import matplotlib.pyplot as plt
 
 # import file
 df = pd.read_csv('res/tp0/marambio_2007.dat', sep=r'\s+')
@@ -22,3 +24,7 @@ train, test = train_test_split(df, test_size=0.2)
 
 print(train.shape[0])
 print(test.shape[0])
+
+#df['gembach'].hist(grid=True, bins=20, rwidth=0.9, color='#607c8e')
+boxplot = df.boxplot(column=['ukmo', 'cmam', 'gembach', 'ncep', 'ecmwf'])
+plt.show()
