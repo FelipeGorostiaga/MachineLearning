@@ -18,3 +18,9 @@ La dependencia `jupyterlab` se encuentra en el archivo de dependencias. Para ini
 ```bash
 jupyter lab
 ```
+
+Para instalar los archivos comunes de Machine Learning como un paquete de pip, correr el siguiente comando:
+```bash
+cd src
+pip install -e mlcommon
+```
