@@ -1,8 +1,9 @@
 matplotlib==3.3.4
 numpy==1.20.1
 
-# TP0
 pandas==1.2.3
 sklearn
+xlrd==2.0.1  # xls reader
+openpyxl==3.0.7  # xlsx reader
 
 jupyterlab
