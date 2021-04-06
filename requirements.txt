@@ -6,4 +6,6 @@ sklearn
 xlrd==2.0.1  # xls reader
 openpyxl==3.0.7  # xlsx reader
 
+seaborn==0.11.1
+
 jupyterlab
