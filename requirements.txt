@@ -1,13 +1,13 @@
-matplotlib==3.3.4
-numpy==1.20.1
+matplotlib~=3.3.4
+numpy~=1.20.1
 
-pandas==1.2.3
-sklearn
-xlrd==2.0.1  # xls reader
-openpyxl==3.0.7  # xlsx reader
+pandas~=1.2.3
+scikit-learn~=0.24.1
+xlrd~=2.0  # xls reader
+openpyxl~=3.0  # xlsx reader
 
-seaborn==0.11.1  # confusion matrix
+seaborn~=0.11.1  # confusion matrix
 
-opencv-python-headless==4.5.2.52  # SVM
+Pillow~=8.2
 
-jupyterlab
+jupyterlab~=3.0
